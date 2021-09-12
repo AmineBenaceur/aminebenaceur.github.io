@@ -78,7 +78,7 @@ function Particle() {
                 "events": {
                 "onhover": {
                     "enable": true,
-                    "mode": "bubble"
+                    "mode": "repulse"
                 },
                 "onclick": {
                     "enable": true,
@@ -101,8 +101,8 @@ function Particle() {
                     "speed": 3
                 },
                 "repulse": {
-                    "distance": 400,
-                    "duration": 0.4
+                    "distance": 100,
+                    "duration": 2
                 },
                 "push": {
                     "particles_nb": 4

@@ -1,6 +1,10 @@
 import Sidebar from "./components/Sidebar";
 import styled from "styled-components";
 import HomePage from "./components/pages/HomePage";
+import AboutPage  from "./components/pages/AboutPage"
+import ResumePage from "./components/pages/ResumePage";
+import ContactPage  from "./components/pages/ContactPage"
+import ProjectsPage  from "./components/pages/ProjectsPage"
 import { Route,Switch as Switching } from 'react-router'
 
 
@@ -10,11 +14,22 @@ function App() {
       <Sidebar />
       <MainContentStyled>
 
-      <HomePage />
 
       <Switching>
         <Route path="/" exact>
-
+          <HomePage />
+        </Route>
+        <Route path="/about" exact>
+          <AboutPage />
+        </Route>
+        <Route path="/projects" exact>
+          <ProjectsPage />
+        </Route> 
+        <Route path="/resume" exact>
+          <ResumePage />
+        </Route> 
+        <Route path="/contact" exact>
+          <ContactPage />
         </Route>
       </Switching>
       </MainContentStyled>
