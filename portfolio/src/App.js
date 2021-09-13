@@ -1,10 +1,10 @@
 import Sidebar from "./components/Sidebar";
 import styled from "styled-components";
-import HomePage from "./components/pages/HomePage";
-import AboutPage  from "./components/pages/AboutPage"
-import ResumePage from "./components/pages/ResumePage";
-import ContactPage  from "./components/pages/ContactPage"
-import ProjectsPage  from "./components/pages/ProjectsPage"
+import HomePage from "./pages/HomePage";
+import AboutPage  from "./pages/AboutPage"
+import ResumePage from "./pages/ResumePage";
+import ContactPage  from "./pages/ContactPage"
+import ProjectsPage  from "./pages/ProjectsPage"
 import { Route,Switch as Switching } from 'react-router'
 
 

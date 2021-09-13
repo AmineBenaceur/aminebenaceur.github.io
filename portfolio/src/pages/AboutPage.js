@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components';
-import { MainLayout } from '../../styles/Layouts';
-import ImageSection from '../ImageSection';
-import Title from '../Title';
+import { MainLayout } from '../styles/Layouts';
+import ImageSection from '../components/ImageSection';
+import Title from '../components/Title';
 
 function AboutPage() {
     return (

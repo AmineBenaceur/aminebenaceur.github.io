@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import Particle from '../Particle';
+import Particle from '../components/Particle';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GithubIcon from '@material-ui/icons/GitHub';
 import YoutubeIcon from '@material-ui/icons/YouTube';

@@ -96,7 +96,8 @@ const ImageSectionStyled = styled.div`
         .interest-list{
             display: list-item;
             margin-left: 1.5rem;
-            margin-top: 1rem;
+            margin-top: 0.5rem;
+            padding: 1rem 0;
             .interest-list-bullet{
                 list-style-type: circle;
         
