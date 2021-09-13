@@ -20,7 +20,7 @@ function ProjectCard({project}) {
                 <CardActionArea>
                     <CardMedia
                         component="img"
-                        alt="Contemplative Reptile"
+                        alt="e"
                         height="140"
                         width = "300"
                         image={project.photo}
