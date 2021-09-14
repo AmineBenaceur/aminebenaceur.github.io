@@ -44,7 +44,7 @@ function ProjectCard({project}) {
                     {    
                     project.links.github && ( <Button variant="outlined" startIcon={<GitHubIcon />} href={project.links.github}
                         target="_blank"className="button-github">
-                        Github 
+                        Source 
                     </Button>)}
                     {    
                     project.links.link && ( <Button size="small" startIcon={<LinkIcon />}  variant="outlined" href={project.links.link}
@@ -94,7 +94,7 @@ const ProjectCardStyled = styled.div`
     width: 7rem;
     height: 2rem;
     span{
-        color: purple;
+        color: var(--white-color);
     }
 }
 
