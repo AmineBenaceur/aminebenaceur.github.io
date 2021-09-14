@@ -99,7 +99,7 @@ const ImageSectionStyled = styled.div`
             margin-top: 1rem;
             padding: 1rem 0;
             .interest-list-bullet{
-    
+                list-style-type: circle;
         
             }
         }
