@@ -17,7 +17,7 @@ const projectInfo = [
         category: "Desktop & Embedded",
         title: "Learning Platform",
         description:
-          "An online learning platform for use of students & professors to fascilitate learning, course enrollment submitting & grading assignments, and E-mail communication.",
+          "An online learning platform for students & professors to fascilitate learning, course enrollment submitting & grading assignments, and E-mail communication.",
         photo:
           "https://images.pexels.com/photos/5428003/pexels-photo-5428003.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
         links: {
@@ -43,7 +43,7 @@ const projectInfo = [
         category: "Web Applications",
         title: "TwitchHub",
         description:
-          "Twitch streaming web application in Laravel to utilize the Twitch API with PostgreSQL. Users can sign up and subscribe to various categories and stream relevant videos from Twitch in their feed.",
+          "Twitch streaming website utilizing the Twitch API. Users can sign up, subscribe to various categories and stream relevant videos from Twitch in their feed.",
         photo:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Twitch_Logo.jpg/800px-Twitch_Logo.jpg",
         links: {
@@ -70,7 +70,7 @@ const projectInfo = [
         category: "Desktop & Embedded",
         title: "Client Server TicTacToe",
         description:
-          " A multi threaded TicTacToe client server Java Desktop application. Supports multiple Players at once.",
+          " A TicTacToe desktop game developed in Java. Supports multiple Players at once through a multi-threaded Client/Server design.",
         photo:
           "https://images.pexels.com/photos/3400795/pexels-photo-3400795.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
         links: {
@@ -125,7 +125,7 @@ const projectInfo = [
         category: "Web Applications",
         title: "MyBlog",
         description:
-          "A blogging application built using laravel along with PostgreSQL.",
+          "A blogging application built using laravel along with PostgreSQL. Allows Users to Sign up and easily post blog content and images to their feed.",
         photo:
           "https://i2.wp.com/storage.googleapis.com/blog-images-backup/1*2gKr79YTmj2MkP8zLOn-bg.png?resize=1201%2C401&ssl=1",
         links: {
@@ -179,7 +179,7 @@ const projectInfo = [
         category: "UI Design & Static",
         title: "MoneyWatch - Prototype",
         description:
-          "A human-computer Interaction focused Prototype for an investment analysis platform. ",
+          "A Human-Computer Interaction focused Prototype showcasing how investors can use our platform to analyze the market. ",
         photo:
           "https://i0.wp.com/wptavern.com/wp-content/uploads/2018/11/Screen-Shot-2018-11-19-at-8.43.27-PM.png?ssl=1",
         links: {

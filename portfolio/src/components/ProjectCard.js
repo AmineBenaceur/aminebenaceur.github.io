@@ -44,7 +44,7 @@ function ProjectCard({project}) {
                     {    
                     project.links.github && ( <Button variant="outlined" startIcon={<GitHubIcon />} href={project.links.github}
                         target="_blank"className="button-github">
-                        Source 
+                        CODE
                     </Button>)}
                     {    
                     project.links.link && ( <Button size="small" startIcon={<LinkIcon />}  variant="outlined" href={project.links.link}
