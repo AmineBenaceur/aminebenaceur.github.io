@@ -4,7 +4,7 @@ import Particle from '../components/Particle';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GithubIcon from '@material-ui/icons/GitHub';
 import YoutubeIcon from '@material-ui/icons/YouTube';
-
+import code_1 from '../img/code-1.jpeg'
 function HomePage() {
     return (
         <HomePageStyled>
@@ -38,6 +38,12 @@ const HomePageStyled = styled.header`
     width: 100%;
     height: 100vh;
     position: relative;
+    
+
+    .particle-con{
+        background-image: url(${code_1});
+        background-position: 50% 20%;
+    }
 
     .typography{
         position: absolute;
