@@ -42,7 +42,7 @@ const HomePageStyled = styled.header`
 
     .particle-con{
         background-image: url(${code_1});
-        background-position: 50% 20%;
+        background-position: 40% 20%;
     }
 
     .typography{
