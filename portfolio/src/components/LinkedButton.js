@@ -1,23 +1,20 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react"
+import styled from "styled-components";
 
-function Button({filter, button}) {
-    return (
+function LinkedButton({title, href}){
+    return(
         <ButtonsStyled>
-            {
-                button.map((but, i) =>{
-                    return <ButtonStyled key={i} onClick={() => filter(but)}>
-                        {but}
-                    </ButtonStyled>
-                })
-            }
+            <LinkedButtonStyled>
+                <a href={href} target="_blank"> {title} </a>
+            </LinkedButtonStyled>
         </ButtonsStyled>
     )
 }
 
 
 
-const ButtonStyled = styled.button`
+
+const LinkedButtonStyled = styled.button`
     outline: none;
     border: none;
     background-color: var(--background-light-color-2);
@@ -26,7 +23,8 @@ const ButtonStyled = styled.button`
     color: var(--white-color);
     cursor: pointer;
     transition: all .4s ease-in-out;
-    margin-bottom: .6rem;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
     &:active ,&:focus{
         background-color: var(--primary-color);
     }
@@ -38,15 +36,16 @@ const ButtonStyled = styled.button`
         margin-right: .6rem;
     }
 `;
+
 const ButtonsStyled = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     width: 70%;
-    margin: 2.4rem auto;
+    margin: 0rem auto;
 
 
 `;
-export default Button;
 
+export default LinkedButton;

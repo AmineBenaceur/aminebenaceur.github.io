@@ -4,10 +4,11 @@ import { MainLayout} from '../styles/Layouts';
 import Resume from '../components/Resume';
 
 function ResumePage() {
+
     return (
         <MainLayout>
-            <Skills />
             <Resume />
+            <Skills />
         </MainLayout>
     )
 }

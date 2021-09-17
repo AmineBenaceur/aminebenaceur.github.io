@@ -7,6 +7,8 @@ import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
 import SchoolIcon from '@material-ui/icons/School';
 import ResumeItem from '../components/ResumeItem';
 import {experience_NeuroFus, courseWork} from '../data/ResumeInfo'
+import LinkedButton from '../components/LinkedButton';
+import AmineBenaceurResume from '../documents/AmineBenaceurResume.pdf'
 
 function Resume() {
     const briefcase = <BusinessCenterIcon />
@@ -15,6 +17,7 @@ function Resume() {
     return (
         <ResumeStyled>
             <Title title={'Resume'} span={'resume'} />
+            <LinkedButton title={"PDF Resume"} href={AmineBenaceurResume} />
             <InnerLayout>
                 <div className="small-title">
                     <SmallTitle icon={briefcase} title={'Working Experience'} />

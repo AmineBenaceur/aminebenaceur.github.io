@@ -13,7 +13,7 @@ function ImageSection(props) {
                     <h4> I am <span> Amine Benaceur</span></h4>
                 </div>
                 <p className = "paragraph">
-                    An ambitious Software Engineering graduate based in Calgary, Alberta who enjoys Hardware Interfacing and building things that live on the web. 
+                    An ambitious Software Engineering graduate based in Calgary, Alberta. 
                 </p>
                 <div className="sub-title">
                     <h5> Experience </h5>

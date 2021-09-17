@@ -12,7 +12,7 @@ function HomePage() {
                 <Particle />
             </div>
             <div className="typography">
-                <h1>Hi, My name is <span>Amine</span></h1>
+                <h1>Hi, My name is <span>Amine</span>.</h1>
             <div className="icons">
                 <a href="https://codepen.io/pen/" className="icon i-linkedin">
                     <LinkedInIcon />
