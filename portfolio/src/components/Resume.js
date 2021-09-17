@@ -9,6 +9,7 @@ import ResumeItem from '../components/ResumeItem';
 import {experience_NeuroFus, courseWork} from '../data/ResumeInfo'
 import LinkedButton from '../components/LinkedButton';
 import AmineBenaceurResume from '../documents/AmineBenaceurResume.pdf'
+import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
 
 function Resume() {
     const briefcase = <BusinessCenterIcon />
@@ -17,7 +18,7 @@ function Resume() {
     return (
         <ResumeStyled>
             <Title title={'Resume'} span={'resume'} />
-            <LinkedButton title={"PDF Resume"} href={AmineBenaceurResume} />
+            <LinkedButton title={"Click for PDF Resume"} href={AmineBenaceurResume} icon={PictureAsPdfIcon} />
             <InnerLayout>
                 <div className="small-title">
                     <SmallTitle icon={briefcase} title={'Working Experience'} />

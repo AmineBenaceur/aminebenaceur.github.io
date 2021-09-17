@@ -1,11 +1,12 @@
 import React from "react"
 import styled from "styled-components";
+import Button from '@mui/material/Button';
 
-function LinkedButton({title, href}){
+function LinkedButton({title, href, icon}){
     return(
         <ButtonsStyled>
             <LinkedButtonStyled>
-                <a href={href} target="_blank"> {title} </a>
+                <a href={href} target="_blank">  {title} </a>
             </LinkedButtonStyled>
         </ButtonsStyled>
     )
@@ -17,7 +18,7 @@ function LinkedButton({title, href}){
 const LinkedButtonStyled = styled.button`
     outline: none;
     border: none;
-    background-color: var(--background-light-color-2);
+    background-color: var(--primary-color);
     padding: .4rem 2rem;
     font-size: inherit;
     color: var(--white-color);
@@ -29,7 +30,8 @@ const LinkedButtonStyled = styled.button`
         background-color: var(--primary-color);
     }
     &:hover{
-        background-color: var(--primary-color);
+        background-color: var(--white-color);
+        color: var(--background-dark-color);
     }
 
     &:not(:last-child){

@@ -1,3 +1,4 @@
+import React,{useState} from "react";
 import Sidebar from "./components/Sidebar";
 import styled from "styled-components";
 import HomePage from "./pages/HomePage";
@@ -6,12 +7,21 @@ import ResumePage from "./pages/ResumePage";
 import ContactPage  from "./pages/ContactPage"
 import ProjectsPage  from "./pages/ProjectsPage"
 import { Route,Switch as Switching } from 'react-router'
-
+import MenuIcon from '@material-ui/icons/Menu';
+import { IconButton } from "@material-ui/core";
 
 function App() {
+  const [navToggle, setNavToggle] = useState(false);
   return (
     <div className="App">
-      <Sidebar />
+      <Sidebar navToggle={navToggle} />
+
+      <div className="ham-burger-menu">
+          <IconButton onClick={() => setNavToggle(!navToggle)}>
+              <MenuIcon />
+          </IconButton>
+        </div>
+
       <MainContentStyled>
 
 
