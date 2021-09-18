@@ -32,7 +32,7 @@ const projectInfo = [
         description:
           "A single player virtual Reality Ping Pong game with haptic touch feedback for full immersion. Interfaced with the PHANTOM Omni Device. ",
         photo:
-          "https://images.pexels.com/photos/5428003/pexels-photo-5428003.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+          "https://images.pexels.com/photos/976873/pexels-photo-976873.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
         links: {
           github: "https://github.com/AmineBenaceur/HapticPingPong",
           youtube: "https://youtu.be/3jQ1ItvAfz0",
@@ -101,7 +101,7 @@ const projectInfo = [
         photo:
           "https://cdn-images-1.medium.com/max/2600/1*qXcjSfRj0C0ir2yMsYiRyw.jpeg",
         links: {
-          github: "https://github.com/AmineBenaceur/MyPorfolio",
+          github: "https://github.com/AmineBenaceur/aminebenaceur.github.io",
           youtube: "",
           link: "https://aminebenaceur.github.io/",
         },

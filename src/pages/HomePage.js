@@ -12,15 +12,15 @@ function HomePage() {
                 <Particle />
             </div>
             <div className="typography">
-                <h1>Hi, My name is <span>Amine</span>.</h1>
+                <h1>Hi, my name is <span>Amine</span>.</h1>
             <div className="icons">
-                <a href="https://codepen.io/pen/" className="icon i-linkedin">
+                <a href="https://www.linkedin.com/in/abenaceur/" target="_blank" className="icon i-linkedin">
                     <LinkedInIcon />
                 </a>
-                <a href="https://codepen.io/pen/" className="icon i-github">
+                <a href="https://github.com/AmineBenaceur" target="_blank" className="icon i-github">
                     <GithubIcon />
                 </a>
-                <a href="https://codepen.io/pen/" className="icon i-youtube">
+                <a href="https://www.youtube.com/channel/UCQXgGmVBzIh9TmXWudIv0Gw" target="_blank" className="icon i-youtube">
                     <YoutubeIcon />
                 </a>
             </div>

@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/static/js/main.3e3146fc.chunk.js",
-    "main.js.map": "/static/js/main.3e3146fc.chunk.js.map",
+    "main.js": "/static/js/main.65eac39a.chunk.js",
+    "main.js.map": "/static/js/main.65eac39a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.931e61bc.js",
     "runtime-main.js.map": "/static/js/runtime-main.931e61bc.js.map",
-    "static/js/2.a0bd5682.chunk.js": "/static/js/2.a0bd5682.chunk.js",
-    "static/js/2.a0bd5682.chunk.js.map": "/static/js/2.a0bd5682.chunk.js.map",
+    "static/js/2.37d750a7.chunk.js": "/static/js/2.37d750a7.chunk.js",
+    "static/js/2.37d750a7.chunk.js.map": "/static/js/2.37d750a7.chunk.js.map",
     "index.html": "/index.html",
-    "static/js/2.a0bd5682.chunk.js.LICENSE.txt": "/static/js/2.a0bd5682.chunk.js.LICENSE.txt",
+    "static/js/2.37d750a7.chunk.js.LICENSE.txt": "/static/js/2.37d750a7.chunk.js.LICENSE.txt",
     "static/media/AmineBenaceurResume.ed3af260.pdf": "/static/media/AmineBenaceurResume.ed3af260.pdf",
     "static/media/ProfilePhoto.ee7ccada.jpg": "/static/media/ProfilePhoto.ee7ccada.jpg",
     "static/media/avatar.a68615af.png": "/static/media/avatar.a68615af.png",
@@ -15,7 +15,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.931e61bc.js",
-    "static/js/2.a0bd5682.chunk.js",
-    "static/js/main.3e3146fc.chunk.js"
+    "static/js/2.37d750a7.chunk.js",
+    "static/js/main.65eac39a.chunk.js"
   ]
 }
